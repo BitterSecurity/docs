@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="symbol-vector-dark-title symbol-vector-dark-description">
+  <title id="symbol-vector-dark-title">Bitter Security symbol</title>
+  <desc id="symbol-vector-dark-description">Editable all-path Coupled Field symbol for dark surfaces.</desc>
+  <defs>
+    <linearGradient id="symbol-vector-dark-face" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFEF8"/>
+      <stop offset="0.52" stop-color="#F1F0EA"/>
+      <stop offset="1" stop-color="#C9C8C3"/>
+    </linearGradient>
+    <linearGradient id="symbol-vector-dark-upper-facet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7F6F0"/>
+      <stop offset="1" stop-color="#737374"/>
+    </linearGradient>
+    <linearGradient id="symbol-vector-dark-lower-facet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#737374"/>
+      <stop offset="1" stop-color="#F7F6F0"/>
+    </linearGradient>
+  </defs>
+  <g id="symbol" transform="translate(13 0)">
+    <path id="upper-field" d="M24.6 0.9 L24.6 28.9 L1.75 17.55 L1.75 14 Z" fill="url(#symbol-vector-dark-face)"/>
+    <g id="upper-exchange-facets" fill="url(#symbol-vector-dark-upper-facet)">
+      <path id="upper-facet-1" d="M2.64 19.29 L3.52 19.29 L15.38 25.42 L13.62 25.42 Z"/>
+      <path id="upper-facet-2" d="M3.96 23.23 L5.27 23.23 L13.18 26.3 L11.87 26.3 Z"/>
+      <path id="upper-facet-3" d="M5.71 25.86 L6.59 25.86 L10.98 26.74 L10.54 27.18 L7.91 27.18 L5.71 26.74 Z"/>
+      <path id="upper-facet-4" d="M7.03 28.05 L8.35 28.05 L9.67 28.49 L7.03 28.49 Z"/>
+    </g>
+    <path id="lower-field" d="M9.23 31.56 L33.83 44.27 L33.83 46.9 L9.23 62.25 Z" fill="url(#symbol-vector-dark-face)"/>
+    <g id="lower-exchange-facets" fill="url(#symbol-vector-dark-lower-facet)">
+      <path id="lower-facet-1" d="M22.85 31.56 L27.25 31.56 L27.25 32.44 L25.93 32.44 Z"/>
+      <path id="lower-facet-2" d="M22.85 32.88 L24.17 32.88 L29 33.75 L29 34.63 L27.68 34.63 L23.73 33.32 Z"/>
+      <path id="lower-facet-3" d="M21.53 34.19 L23.29 34.19 L31.19 37.26 L30.75 37.7 L30.31 37.7 L21.53 34.63 Z"/>
+      <path id="lower-facet-4" d="M19.77 35.07 L20.65 35.07 L32.95 41.21 L32.51 41.64 L31.63 41.64 L19.77 35.51 Z"/>
+    </g>
+  </g>
+</svg>

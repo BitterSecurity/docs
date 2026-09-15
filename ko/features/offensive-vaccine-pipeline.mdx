@@ -4,7 +4,7 @@ description: "5단계 취약점 연구 파이프라인 (Scanner → Detector →
 ---
 
 <Note>
-  아래에 설명된 **5단계 Vulnresearch 파이프라인**은 오늘 출시된 상태이며, `Vulnresearch` 조율자와 그 5개의 서브 에이전트가 구동합니다. 루프를 닫는 **방어 측 절반** ("Defender" 에이전트, 자동 완화 백엔드, 재공격 검증)은 현재 코드베이스에 활성 구현되지 않은 **계획된 제품 방향**입니다. 이전 Defender 그래프와 Docker 방어 백엔드는 제거되었고, 향후 구현은 OPPLAN 미들웨어 위에 재구축될 예정입니다. 자세한 내용은 repo의 [`docs/offensive-vaccine.md`](https://github.com/PurpleAILAB/Decepticon/blob/main/docs/offensive-vaccine.md) 참조.
+  아래에 설명된 **5단계 Vulnresearch 파이프라인**은 오늘 출시된 상태이며, `Vulnresearch` 조율자와 그 5개의 서브 에이전트가 구동합니다. 루프를 닫는 **방어 측 절반** ("Defender" 에이전트, 자동 완화 백엔드, 재공격 검증)은 현재 코드베이스에 활성 구현되지 않은 **계획된 제품 방향**입니다. 이전 Defender 그래프와 Docker 방어 백엔드는 제거되었고, 향후 구현은 OPPLAN 미들웨어 위에 재구축될 예정입니다. 자세한 내용은 repo의 [`docs/offensive-vaccine.md`](https://github.com/BitterSecurity/Decepticon/blob/main/docs/offensive-vaccine.md) 참조.
 </Note>
 
 **오펜시브 백신**은 Decepticon에 이름과 목적을 부여하는 루프입니다: 모든 오펜시브 행동이 방어적 산출물이 됩니다. 이 페이지는 오늘 출시된 5단계 Vulnresearch 파이프라인과, 향후 루프를 종료할 계획된 방어 측 컴포넌트를 문서화합니다.

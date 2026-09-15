@@ -80,7 +80,7 @@ bash 측 대응물. `run_in_background=True`로 실행된 `bash` 명령이 종�
 
 ### Skillogy
 
-독립 실행형 Skillogy 서비스의 얇은 REST 클라이언트. Neo4j 기반 스킬 그래프(포트 `9100`)에 대해 `find_skill`, `load_skill`, `traverse`를 노출합니다. 에이전트 팩토리가 설정하는 `allowed_path_prefixes` 파라미터를 함께 전달하며, 서비스가 강제 ACL([ADR-0008](https://github.com/PurpleAILAB/Decepticon/blob/main/docs/adr/0008-skillogy-hard-acl-phase1a.md))을 적용해 전문가가 프롬프트 인젝션으로 다른 역할의 스킬을 열람하도록 설득될 수 없습니다.
+독립 실행형 Skillogy 서비스의 얇은 REST 클라이언트. Neo4j 기반 스킬 그래프(포트 `9100`)에 대해 `find_skill`, `load_skill`, `traverse`를 노출합니다. 에이전트 팩토리가 설정하는 `allowed_path_prefixes` 파라미터를 함께 전달하며, 서비스가 강제 ACL([ADR-0008](https://github.com/BitterSecurity/Decepticon/blob/main/docs/adr/0008-skillogy-hard-acl-phase1a.md))을 적용해 전문가가 프롬프트 인젝션으로 다른 역할의 스킬을 열람하도록 설득될 수 없습니다.
 
 ### HITL
 

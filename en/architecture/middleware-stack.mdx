@@ -80,7 +80,7 @@ Owns the engagement-scoped Neo4j `KGStore` and exposes the two agent-facing grap
 
 ### Skillogy
 
-A thin REST client of the standalone Skillogy service. Exposes `find_skill`, `load_skill`, and `traverse` against the Neo4j-backed skill graph (port `9100`). Carries an `allowed_path_prefixes` parameter set by the agent factory; the service enforces the hard ACL ([ADR-0008](https://github.com/PurpleAILAB/Decepticon/blob/main/docs/adr/0008-skillogy-hard-acl-phase1a.md)) so a specialist can't be talked into browsing another role's skills via prompt injection.
+A thin REST client of the standalone Skillogy service. Exposes `find_skill`, `load_skill`, and `traverse` against the Neo4j-backed skill graph (port `9100`). Carries an `allowed_path_prefixes` parameter set by the agent factory; the service enforces the hard ACL ([ADR-0008](https://github.com/BitterSecurity/Decepticon/blob/main/docs/adr/0008-skillogy-hard-acl-phase1a.md)) so a specialist can't be talked into browsing another role's skills via prompt injection.
 
 ### HITL
 

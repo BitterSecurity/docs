@@ -1,4 +1,17 @@
 .nav-logo {
-  height: 30px !important;
+  height: 48px !important;
   width: auto !important;
+  max-width: none !important;
+}
+
+html[lang="ko"] #content-area :where(h1, h2, h3, h4, p, li, [data-as="p"]) {
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+
+@media (max-width: 639px) {
+  html[lang="ko"] #content h2:not([data-component-part="card-title"]) {
+    font-size: 20px;
+    line-height: 28px;
+  }
 }

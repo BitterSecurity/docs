@@ -1,17 +1,26 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "Decepticon",
-  "description": "Autonomous Hacking Agent",
+  "name": "Decepticon by Bitter Security",
+  "description": "Decepticon, the autonomous offensive security platform by Bitter Security",
   "logo": {
-    "light": "/logos/logo2.png",
-    "dark": "/logos/logo2.png"
+    "light": "/logos/bitter-security-lockup-on-light.svg",
+    "dark": "/logos/bitter-security-lockup-on-dark.svg"
   },
-  "favicon": "/logos/logo.ico",
+  "favicon": "/logos/bitter-security-favicon.svg",
   "colors": {
-    "primary": "#8712B6",
-    "light": "#F8FAFC",
-    "dark": "#0B0E14"
+    "primary": "#B82C3D",
+    "light": "#F06A76",
+    "dark": "#8B1828"
+  },
+  "fonts": {
+    "family": "Geist"
+  },
+  "background": {
+    "color": {
+      "light": "#F1F0EA",
+      "dark": "#08090A"
+    }
   },
   "icons": {
     "library": "lucide"
@@ -175,8 +184,12 @@
   "navbar": {
     "links": [
       {
+        "label": "Bitter Security",
+        "href": "https://bittersecurity.com"
+      },
+      {
         "label": "GitHub",
-        "href": "https://github.com/PurpleAILAB/Decepticon"
+        "href": "https://github.com/BitterSecurity/Decepticon"
       }
     ],
     "primary": {
@@ -187,7 +200,7 @@
   },
   "footer": {
     "socials": {
-      "github": "https://github.com/PurpleAILAB/Decepticon",
+      "github": "https://github.com/BitterSecurity/Decepticon",
       "discord": "https://discord.gg/TZUYsZgrRG",
       "x": "https://x.com/v1b3xor"
     }

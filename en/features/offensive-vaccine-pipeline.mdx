@@ -4,7 +4,7 @@ description: "The five-stage vulnerability research pipeline (Scanner → Detect
 ---
 
 <Note>
-  The **five-stage Vulnresearch pipeline** described below ships today, driven by the `Vulnresearch` orchestrator and its five sub-agents. The **defense-closing half** of the loop (the "Defender" agent, automated mitigation backends, re-attack verification) is a **planned product direction** — not an active implementation in the current codebase. The previous Defender graph and Docker defense backend have been removed and a future implementation will be rebuilt around OPPLAN middleware. See [`docs/offensive-vaccine.md`](https://github.com/PurpleAILAB/Decepticon/blob/main/docs/offensive-vaccine.md) in the repo.
+  The **five-stage Vulnresearch pipeline** described below ships today, driven by the `Vulnresearch` orchestrator and its five sub-agents. The **defense-closing half** of the loop (the "Defender" agent, automated mitigation backends, re-attack verification) is a **planned product direction** — not an active implementation in the current codebase. The previous Defender graph and Docker defense backend have been removed and a future implementation will be rebuilt around OPPLAN middleware. See [`docs/offensive-vaccine.md`](https://github.com/BitterSecurity/Decepticon/blob/main/docs/offensive-vaccine.md) in the repo.
 </Note>
 
 The **Offensive Vaccine** is the loop that gives Decepticon its name and its purpose: every offensive action becomes a defensive artifact. This page documents the five-stage Vulnresearch pipeline that ships today, and the planned defense-side components that will eventually close the loop.
