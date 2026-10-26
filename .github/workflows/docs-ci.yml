@@ -1,0 +1,27 @@
+# Optional: the primary CI path is running scripts/ci.sh locally (see README).
+# This workflow only calls the same script; drop this commit if Actions stays disabled.
+name: docs-ci
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  docs-ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Run docs checks
+        run: scripts/ci.sh
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs-ci-logs
+          path: ci-logs/
